@@ -1,0 +1,199 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kids</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">FILM HUB</div>
+        <ul>
+            <li><a href ="a.html" target="_self">Home</a></li>
+            <li><a href ="k.html" target="_self">Movies</a></li>
+            <li><a href ="s.html" target="_self">Shows</a></li>
+            <li><a href ="b.html" target="_self">Kids</a></li>
+            <li><a href ="d.html" target="_self">Dramas</a></li>
+            <li><a href ="m.html" target="_self">My Hub</a></li>
+            <li><a href ="si.html" target="_self">Sign in</a></li>
+        </ul>
+        </nav>
+        <section>
+            <div   class="z">
+
+            </div>
+        </section>
+       
+<!-- MAIN (Center website) -->
+<div class="main">
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('CN')" > CN</button>
+  <button class="btn" onclick="filterSelection('kushi')" >Kushi</button>
+  <button class="btn" onclick="filterSelection('disney')">Disney</button>
+  <button class="btn" onclick="filterSelection('pogo')">Pogo</button>
+  <button class="btn" onclick="filterSelection('nick')">Nickelodeon</button>
+  <button class="btn" onclick="filterSelection('hungama')">Hungama</button>
+ 
+</div>
+<div class="row">
+  <div class="column CN">
+    <div class="content">
+      <img src="repo/ben.jpg" alt="Mountains" style="width:100%">
+      <h4>Ben 10</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column kushi">
+    <div class="content">
+    <img src="repo/tom.jpg" alt="Lights" style="width:100%">
+      <h4>Tom & Jerry</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column disney">
+    <div class="content">
+    <img src="repo/bigcity.jpg" alt="Nature" style="width:100%">
+      <h4>Big city</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  
+  <div class="column pogo">
+    <div class="content">
+      <img src="repo/camp.jpg" alt="Car" style="width:100%">
+      <h4>Camp</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column nick">
+    <div class="content">
+      <img src="repo/clarence.jpg" alt="Car" style="width:100%">
+      <h4>Clarance</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column hungama">
+    <div class="content">
+    <img src="repo/codeman.jpg" alt="Car" style="width:100%">
+      <h4>Codeman</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column CN">
+    <div class="content">
+      <img src="repo/courage.jpg" alt="Car" style="width:100%">
+      <h4>COurage</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column kushi">
+    <div class="content">
+    <img src="repo/dexter.jpg" alt="Car" style="width:100%">
+      <h4>Dexter Lab</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column pogo">
+    <div class="content">
+    <img src="repo/eddy.jpg" alt="Car" style="width:100%">
+      <h4>Eddy</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column disney">
+    <div class="content">
+      <img src="repo/evil.jpg" alt="Car" style="width:100%">
+      <h4>Evil</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column nick">
+    <div class="content">
+      <img src="repo/foster.jpg" alt="Car" style="width:100%">
+      <h4>Foster</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column hungama">
+    <div class="content">
+      <img src="repo/grim.jpg" alt="Car" style="width:100%">
+      <h4>Grim</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column CN">
+    <div class="content">
+      <img src="repo/gumball.jpg" alt="Car" style="width:100%">
+      <h4>Gumball</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column nick">
+    <div class="content">
+      <img src="repo/weasel.jpg" alt="Car" style="width:100%">
+      <h4>Weasel</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  <div class="column hungama">
+    <div class="content">
+    <img src="repo/total.jpg" alt="Car" style="width:100%">
+      <h4>Total</h4>
+      <p><a href="si.html">click here</a></p>
+    </div>
+  </div>
+  
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>

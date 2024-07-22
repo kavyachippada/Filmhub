@@ -1,0 +1,160 @@
+body {
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-family: Arial;
+    background-color: skyblue;
+  }
+  * {
+    box-sizing: border-box;
+  }
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size:14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+} 
+.j {
+    background:scroll;
+    background-color: skyblue;
+     background-size: contain;
+    background-position: center;   
+}
+div.gallery {
+margin: 15px;
+border: 2px solid #ccc;
+float: left;
+width: 250px;
+}
+
+div.gallery:hover {
+border: 2px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 35px;
+text-align: center;
+}
+.wrapper{
+border: 2px solid #ddd;
+display: flex;
+overflow-x:scroll;
+}
+.wrapper::-webkit-scrollbar{
+width: 0;
+}
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 5px -10px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 5px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 20%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 5px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+    margin: auto;
+    position:relative;
+    left: 200px;
+  }
+  
+  .btn:hover {
+    background-color:#ddd;
+  }
+  
+  .btn.active {
+    background-color: crimson;
+    color: white;
+  }
+  .z{
+        padding:50px;
+    }
+    .kav{
+        background-color: white;
+        padding-left: 3%;
+        padding-bottom: 0.19%;
+        padding-right: 1;
+        padding-top: 0.20;
+      }
