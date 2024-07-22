@@ -31,4 +31,12 @@ The project is organized into the following sections:
 1. Clone the repository:
    ```sh
    git clone https://github.com/kavyachippada/filmhub.git
+   
+## Usage
+- **Home**: The landing page with an overview of the platform.
+- **Movies**: Browse movies by language.
+- **Shows**: Discover shows by genre.
+- **Kids**: Watch content on various kids' channels.
+- **Dramas**: Find dramas from different countries.
+- **My Hub**: Access your watch history and favorites.
 
