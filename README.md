@@ -40,3 +40,16 @@ The project is organized into the following sections:
 - **Dramas**: Find dramas from different countries.
 - **My Hub**: Access your watch history and favorites.
 
+## Contributing
+We welcome contributions from the community. To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+3. Make your changes and commit them
+4. Push to the branch
+5. Open a pull request
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+
