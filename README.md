@@ -23,7 +23,7 @@ Film Hub is designed to provide a seamless streaming experience, catering to div
 
 ## Project Structure
 The project is organized into the following sections:
-- `a.html`: The main HTML file containing the structure of the platform.
+- `index.html`: The main HTML file containing the structure of the platform.
 - `css/`: Directory containing CSS files for styling.
 - `repo/`: Directory for images used in the project.
 
