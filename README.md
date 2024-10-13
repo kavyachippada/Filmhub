@@ -2,6 +2,8 @@
 
 Film Hub is an OTT platform that offers a variety of content, including movies, shows, dramas, and kids' channels. Users can explore different languages, genres, and favorite content through a user-friendly interface.
 
+[Live Demo](https://kavyachippada.github.io/Filmhub/)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
